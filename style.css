@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.calculator{
+    border: 10px solid darkgreen;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 3px greenyellow;
+}
+input{
+    margin-top: 10px;
+    width:100%;
+    border: 2px solid yellow;
+    padding: 10px;
+    /* background-color: green; */
+    /* color: white; */
+    font-size: 30px;
+    text-align: right;
+}
+button{
+        font-size: 18px;
+        font-weight: bolder;
+        margin: 15px 15px;
+        width: 50px;
+        height: 40px;
+        border-radius: 30%;
+        cursor: pointer;
+        background: tr;
+}
+
+button:hover{
+    background-color: yellowgreen;
+}
+.eqlbtn{
+    background-color: green ;
+    border: 2px solid yellow
+}
+  ::-webkit-input-placeholder{
+
+    text-align: right;
+    font-weight: bolder;
+  }
+
+  /* .operator{
+        color: green;
+  } */
